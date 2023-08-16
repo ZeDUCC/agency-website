@@ -1,0 +1,23 @@
+.col-1 {width: 8.33vw}
+.col-2 {width: 16.66vw}
+.col-3 {width: 25vw}
+.col-4 {width: 33.33vw}
+.col-5 {width: 41.66vw}
+.col-6 {width: 50vw}
+.col-7 {width: 58.33vw}
+.col-8 {width: 66.66vw}
+.col-9 {width: 75vw}
+.col-10 {width: 83.33vw}
+.col-11 {width: 91.66vw}
+.col-12 {width: 100vw}
+
+h1 {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.hover-color-reverse {
+    :hover {
+        background-color: #F59B23;
+        color: white;
+    }
+}
