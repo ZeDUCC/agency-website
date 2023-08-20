@@ -318,15 +318,15 @@ body {
 }
 
 .grey-box-4 {
-    margin-left: 16px;
+    margin-left: 30px;
     width: 15vw;
-    height: 220px;
+    height: 28vh;
     flex-shrink: 0;
 }
 
 .white-box-4 {
-    position: absolute;
-    top: 28px;
+    position: relative;
+    top: 1vh;
     left: 2.5vw;
     width: 10vw;
     height: 162px;
@@ -336,7 +336,7 @@ body {
 .box-text-4 {
     text-align: center;
     position: relative;
-    top: 1vh;
+    top: 4vh;
 }
 
 .bottom-div {
@@ -615,20 +615,21 @@ body {
         height: 10vh;
         width: 43vw;
         position: relative;
-        left: -2.5vw;
+        left: -7vw;
         top: 2vh
     }
 
     .white-box-4 {
+        position: relative;
         height: 8vh;
-        top: 1vh;
+        top: -0.5vh;
         width: 38vw;
         left: 2.5vw;
     }
 
     .box-text-4 {
         font-size: 15px;
-        top: -1vh
+        top: 0.25vh
     }
 
     .grey-box-5 {
@@ -677,5 +678,14 @@ body {
     .pricing-link {
         font-size: 20px;
         top: -0.25vh
+    }
+
+    .float-1, .float-2, .float-3, .float-4 {
+        animation: none;
+    }
+
+    .header-meeting-button:active, .header-pricing-button:active {
+        animation: hover-float-2 ease 0.1s;
+        animation-fill-mode: forwards;
     }
 }
