@@ -527,6 +527,7 @@ h2 {
     .float-1:hover, .float-2:hover, .float-3:hover, .float-4:hover {
         animation: none;
     }
+}
 
 @media screen and (min-width: 321px) and (max-width: 430px) {
 
